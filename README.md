@@ -27,9 +27,13 @@ Other important variable in this dataset is the description of the source of emi
 
 # Auto-ARIMA Model
 
+ARIMA stands for Auto-Regressive Integrated Moving Averages. It's a popular methor for time series forecasting following the assumptions of a stationary and univariate series.
 
+To implement ARIMA models we need to set up three parameters:
 
-
+* p, referring to the auto-regressive term.
+* d, the degree of differencing.
+* q, the size of the moving average window.
 
 
 
