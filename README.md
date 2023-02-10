@@ -1,4 +1,4 @@
-# AutoArima_carbonemissions
+# Carbon Dioxide Emissions Forecast with Auto-ARIMA
 
 This dataset uses information of monthly/annual carbon dioxide emissions from electricity generation (1973-2016) provided by *eia* (U.S Energy Information Administration). Data is broken down by fuel type.
 
