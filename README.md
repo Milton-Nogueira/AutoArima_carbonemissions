@@ -35,6 +35,19 @@ To implement ARIMA models we need to set up three parameters:
 * d, the degree of differencing.
 * q, the size of the moving average window.
 
+In case of seasonality we can also set up the parameters P, D and Q. 
+
+Auto-ARIMA searches for the best combination of (p,d,q)(P,D,Q) through analysis of AIC (Akaike Information Criterion) and BIC (Bayesian Information Criterion). If one chooses to not use Auto-ARIMA and proceed with ARIMA, it'll be necessary to make the series stationary (checking the stationarity and performing required transformations).
+
+In this analysis the best model finded by Auto-ARIMA was (1,1,0)(2,0,2), leading to the following results:
+
+![series](https://user-images.githubusercontent.com/121902546/218174151-1a9bf9ac-7749-4445-840e-4fd113861d59.png)
+
+Despite one outlier in our first measure, the model fits in a good degree the train data and have a good forecast when compared to the test sample.
+
+To evaluate the errors, three metrics were used - Mean absolute error (MAE), root mean squared error (RMSE) and Root Mean Squared Percentage Error (RMSPE).
+
+![errors2](https://user-images.githubusercontent.com/121902546/218174550-f69eefb3-8e05-409b-b4c2-a30a10f4da91.png)
 
 
 To check the commented code click [here](AutoArima_CarbonDioxide.ipynb).
