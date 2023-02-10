@@ -15,7 +15,11 @@ Other important variable in this dataset is the description of the source of emi
 
 ## Data Pre-Processing
 
-
+* Data cleaning was performed removing duplicated rows and missing data.
+* YYYYMM was set as the dataframe index. All columns, besides Values were dropped.
+* The data split between train-test samples was performed as following:
+      - Train sample: January/1973 to December/2010.
+      - Test sample : Janyary/2010 to July/2016.
 
 
 # Auto-ARIMA Model
