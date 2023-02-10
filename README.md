@@ -54,4 +54,4 @@ To evaluate the errors, three metrics were used - Mean absolute error (MAE), roo
 
 To check the commented code click [here](AutoArima_CarbonDioxide.ipynb).
 
-To check a brief Power BI report with data about the sources of Carbon Dioxide emissions and Auto-ARIMA forecast grouped by trimesters, click [here](https://app.powerbi.com/view?r=eyJrIjoiN2IyYjY0YmItOGNmOC00ZGE2LWIwNjAtOTViNmVkMzNlZDY2IiwidCI6IjJjOTUwZWUxLWY4ZWYtNDY1MS05ZmRiLTIwZjRjNjk0ZTAzYyJ9).
+To check a brief Power BI report with data about the sources of Carbon Dioxide emissions and Auto-ARIMA forecast, click [here](https://app.powerbi.com/view?r=eyJrIjoiN2IyYjY0YmItOGNmOC00ZGE2LWIwNjAtOTViNmVkMzNlZDY2IiwidCI6IjJjOTUwZWUxLWY4ZWYtNDY1MS05ZmRiLTIwZjRjNjk0ZTAzYyJ9).
